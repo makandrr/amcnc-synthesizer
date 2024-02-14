@@ -1,7 +1,12 @@
 import styled from "styled-components";
+import metalTexture from '../assets/metal.jpg'
 
 const StyledBlock = styled.div`
-  background-image: linear-gradient(to right, #272729, #3f4041);
+  /* background-image: linear-gradient(to right, #272729, #3f4041); */
+  background-image: url(${metalTexture});
+  background-size: calc(var(--synthesizer-width) + 30%) calc(var(--synthesizer-height) + 20%);
+  background-position: center center;
+  background-attachment: fixed;
   padding-bottom: 1rem;
   border-radius: 3px;
 `
