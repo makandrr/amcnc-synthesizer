@@ -13,9 +13,9 @@ function App() {
       </Header>
       <SynthesizerGrid>
         <Block title="block 1">fjd fds jflksd jflksdj lkjsd lkfjdlk</Block>
-        <Block title="block 2">fjd</Block>
-        <Block title="block 3">fjd</Block>
-        <Block title="block 4">fjd</Block>
+        <Block activable={true} activated={true} title="block 2">fjd</Block>
+        <Block activable={true} activated={true} activatedLedColor="green" title="block 3">fjd</Block>
+        <Block activable={true} title="block 4">fjd</Block>
       </SynthesizerGrid>
     </SynthesizerContainer>
   )

@@ -14,6 +14,12 @@
 
   --synthesizer-width: 40rem;
   --synthesizer-height: 20rem;
+
+  --led-color-green: #00e59c;
+  --led-color-yellow: #ece674;
+  --led-color-orange: #fd951d;
+  --led-color-blue: #00c6fb;
+  --led-color-off: #929292;
 }
 
 body {
